@@ -86,6 +86,7 @@
  }
 
  div.campo > input {
+  position: relative;
    background-color: #8abebe;
    font-size: 1em;
    width: calc(100% - 44.5px);
@@ -111,7 +112,8 @@
 
  div.campo >input:focus-within{
    background-color: white;
-   border: none;
+
+   outline: none;
  }
 
   form > input[type=submit]:hover {
